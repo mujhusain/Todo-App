@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+  }
+  .addBtn{
+    color:rgb(24, 21, 21);
+    height: 32px;
+    margin: 5px;
+    width: 150px;
+  }
+  .Input{
+    margin: 0px auto;
+    width: 45%;
+    background-color: coral;
+  }
+  .inputTitle{
+    width: 15%;
+    margin: 6px 10px;
+  }
+  
+  input{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  .container{
+    color: blue;
+    font-weight: bold;
+    background-color:rgb(117, 203, 224);
+    width: 44%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .tasks{
+    justify-content: space-between;
+    display: flex;
+    min-width:170px;
+  }
+  .container > .tasks p{
+    font-size: 1em;
+  }
